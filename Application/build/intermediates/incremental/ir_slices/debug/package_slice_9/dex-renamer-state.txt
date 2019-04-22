@@ -1,0 +1,4 @@
+#Fri Apr 12 17:56:33 WIB 2019
+base.0=/home/arizbuno/Documents/Kerjaan/android-BluetoothAdvertisements/Application/build/intermediates/transforms/dexMerger/debug/9
+path.0=classes.dex
+renamed.0=classes.dex

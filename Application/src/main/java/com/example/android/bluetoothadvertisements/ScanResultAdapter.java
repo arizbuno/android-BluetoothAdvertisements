@@ -19,6 +19,7 @@ package com.example.android.bluetoothadvertisements;
 import android.bluetooth.le.ScanResult;
 import android.content.Context;
 import android.os.SystemClock;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -26,6 +27,8 @@ import android.widget.BaseAdapter;
 import android.widget.TextView;
 
 import java.util.ArrayList;
+import java.util.Collections;
+import java.util.Comparator;
 import java.util.concurrent.TimeUnit;
 
 /**
@@ -75,12 +78,24 @@ public class ScanResultAdapter extends BaseAdapter {
 
         ScanResult scanResult = mArrayList.get(position);
 
-        String name = scanResult.getDevice().getName();
-        if (name == null) {
-            name = mContext.getResources().getString(R.string.no_name);
-        }
+        String name = scanResult.getDevice().getAddress();
+        int addr = scanResult.getRssi();
+//        if (name == null) {
+//            name = mContext.getResources().getString(R.string.no_name);
+//            if (addr.equals("1D:49:0A:8B:82:5B")) {
+//                name = "LOKASI DEKAT DENGAN KZ";
+//                Log.d("DEBUG", "DEKAT W3");
+//
+//            }
+//            if (addr.equals("06:A2:00:0E:4D:4B")) {
+//                name = "LOKASI DEKAT DENGAN KZ";
+//                Log.d("DEBUG", "DEKAT KZ");
+//
+//            }
+//            Log.d("DEBUG", addr);
+//        }
         deviceNameView.setText(name);
-        deviceAddressView.setText(scanResult.getDevice().getAddress());
+        deviceAddressView.setText("" + addr);
         lastSeenView.setText(getTimeSinceString(mContext, scanResult.getTimestampNanos()));
 
         return view;
@@ -163,5 +178,15 @@ public class ScanResultAdapter extends BaseAdapter {
         }
 
         return lastSeenText;
+    }
+
+    public void sort() {
+        Comparator<ScanResult> comparator = new Comparator<ScanResult>() {
+            @Override
+            public int compare(ScanResult lhs, ScanResult rhs) {
+                return (lhs.getRssi() < rhs.getRssi() ? -1 : (lhs.getRssi() == rhs.getRssi() ? 0 : 1));
+            }
+        };
+        Collections.sort(mArrayList, comparator);
     }
 }

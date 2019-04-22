@@ -1,0 +1,115 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /home/arizbuno/Documents/Kerjaan/android-BluetoothAdvertisements/Application/src/main/AndroidManifest.xml:17:1-49:12
+INJECTED from /home/arizbuno/Documents/Kerjaan/android-BluetoothAdvertisements/Application/src/main/AndroidManifest.xml:17:1-49:12
+INJECTED from /home/arizbuno/Documents/Kerjaan/android-BluetoothAdvertisements/Application/src/main/AndroidManifest.xml:17:1-49:12
+MERGED from [com.android.support:support-v13:27.0.2] /home/arizbuno/.gradle/caches/transforms-1/files-1.1/support-v13-27.0.2.aar/fd4438f9e51c843577316e4c53593a03/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-v4:27.0.2] /home/arizbuno/.gradle/caches/transforms-1/files-1.1/support-v4-27.0.2.aar/8b7dd3677813ae7c9e6c9ac02a9058f5/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:cardview-v7:27.0.2] /home/arizbuno/.gradle/caches/transforms-1/files-1.1/cardview-v7-27.0.2.aar/166e14cb98c69b01e359bc54bd198c39/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:appcompat-v7:27.0.2] /home/arizbuno/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/cd4ef88d1ba658867ad58b50a57dda6a/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-media-compat:27.0.2] /home/arizbuno/.gradle/caches/transforms-1/files-1.1/support-media-compat-27.0.2.aar/7d8f719d22f7dac1d02931c055c4331d/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-fragment:27.0.2] /home/arizbuno/.gradle/caches/transforms-1/files-1.1/support-fragment-27.0.2.aar/680b642f96a122f6455af72b827549b2/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:27.0.2] /home/arizbuno/.gradle/caches/transforms-1/files-1.1/support-core-utils-27.0.2.aar/c6e5bf7cd0eccca2b43b25f3ace24d78/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:animated-vector-drawable:27.0.2] /home/arizbuno/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-27.0.2.aar/37bf7d8e292da72ac33bf38baa5fde3a/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:27.0.2] /home/arizbuno/.gradle/caches/transforms-1/files-1.1/support-core-ui-27.0.2.aar/4c49714bdb05afe6eeec2ad16b105939/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-vector-drawable:27.0.2] /home/arizbuno/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-27.0.2.aar/cae57f78f48f8a5a2883a501f5744b3b/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:27.0.2] /home/arizbuno/.gradle/caches/transforms-1/files-1.1/support-compat-27.0.2.aar/3e4c9469ccfc600661923d310a2a47d2/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:runtime:1.0.3] /home/arizbuno/.gradle/caches/transforms-1/files-1.1/runtime-1.0.3.aar/dec028e8c24c713249227c09427ad079/AndroidManifest.xml:17:1-24:12
+INJECTED from /home/arizbuno/Documents/Kerjaan/android-BluetoothAdvertisements/Application/src/main/AndroidManifest.xml:17:1-49:12
+INJECTED from /home/arizbuno/Documents/Kerjaan/android-BluetoothAdvertisements/Application/src/main/AndroidManifest.xml:17:1-49:12
+	package
+		ADDED from /home/arizbuno/Documents/Kerjaan/android-BluetoothAdvertisements/Application/src/main/AndroidManifest.xml:18:5-58
+	android:versionName
+		ADDED from /home/arizbuno/Documents/Kerjaan/android-BluetoothAdvertisements/Application/src/main/AndroidManifest.xml:20:5-30
+		INJECTED from /home/arizbuno/Documents/Kerjaan/android-BluetoothAdvertisements/Application/src/main/AndroidManifest.xml
+		INJECTED from /home/arizbuno/Documents/Kerjaan/android-BluetoothAdvertisements/Application/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /home/arizbuno/Documents/Kerjaan/android-BluetoothAdvertisements/Application/src/main/AndroidManifest.xml:17:11-69
+	android:versionCode
+		ADDED from /home/arizbuno/Documents/Kerjaan/android-BluetoothAdvertisements/Application/src/main/AndroidManifest.xml:19:5-28
+		INJECTED from /home/arizbuno/Documents/Kerjaan/android-BluetoothAdvertisements/Application/src/main/AndroidManifest.xml
+		INJECTED from /home/arizbuno/Documents/Kerjaan/android-BluetoothAdvertisements/Application/src/main/AndroidManifest.xml
+uses-permission#android.permission.BLUETOOTH_ADMIN
+ADDED from /home/arizbuno/Documents/Kerjaan/android-BluetoothAdvertisements/Application/src/main/AndroidManifest.xml:22:5-74
+	android:name
+		ADDED from /home/arizbuno/Documents/Kerjaan/android-BluetoothAdvertisements/Application/src/main/AndroidManifest.xml:22:22-71
+uses-permission#android.permission.BLUETOOTH
+ADDED from /home/arizbuno/Documents/Kerjaan/android-BluetoothAdvertisements/Application/src/main/AndroidManifest.xml:23:5-68
+	android:name
+		ADDED from /home/arizbuno/Documents/Kerjaan/android-BluetoothAdvertisements/Application/src/main/AndroidManifest.xml:23:22-65
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from /home/arizbuno/Documents/Kerjaan/android-BluetoothAdvertisements/Application/src/main/AndroidManifest.xml:24:5-79
+	android:name
+		ADDED from /home/arizbuno/Documents/Kerjaan/android-BluetoothAdvertisements/Application/src/main/AndroidManifest.xml:24:22-76
+application
+ADDED from /home/arizbuno/Documents/Kerjaan/android-BluetoothAdvertisements/Application/src/main/AndroidManifest.xml:26:5-47:19
+	android:label
+		ADDED from /home/arizbuno/Documents/Kerjaan/android-BluetoothAdvertisements/Application/src/main/AndroidManifest.xml:29:9-41
+	android:icon
+		ADDED from /home/arizbuno/Documents/Kerjaan/android-BluetoothAdvertisements/Application/src/main/AndroidManifest.xml:28:9-45
+	android:allowBackup
+		ADDED from /home/arizbuno/Documents/Kerjaan/android-BluetoothAdvertisements/Application/src/main/AndroidManifest.xml:27:9-35
+	android:theme
+		ADDED from /home/arizbuno/Documents/Kerjaan/android-BluetoothAdvertisements/Application/src/main/AndroidManifest.xml:30:9-40
+activity#com.example.android.bluetoothadvertisements.MainActivity
+ADDED from /home/arizbuno/Documents/Kerjaan/android-BluetoothAdvertisements/Application/src/main/AndroidManifest.xml:31:9-38:20
+	android:label
+		ADDED from /home/arizbuno/Documents/Kerjaan/android-BluetoothAdvertisements/Application/src/main/AndroidManifest.xml:33:13-45
+	android:name
+		ADDED from /home/arizbuno/Documents/Kerjaan/android-BluetoothAdvertisements/Application/src/main/AndroidManifest.xml:32:13-41
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /home/arizbuno/Documents/Kerjaan/android-BluetoothAdvertisements/Application/src/main/AndroidManifest.xml:34:13-37:29
+action#android.intent.action.MAIN
+ADDED from /home/arizbuno/Documents/Kerjaan/android-BluetoothAdvertisements/Application/src/main/AndroidManifest.xml:35:17-69
+	android:name
+		ADDED from /home/arizbuno/Documents/Kerjaan/android-BluetoothAdvertisements/Application/src/main/AndroidManifest.xml:35:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /home/arizbuno/Documents/Kerjaan/android-BluetoothAdvertisements/Application/src/main/AndroidManifest.xml:36:17-77
+	android:name
+		ADDED from /home/arizbuno/Documents/Kerjaan/android-BluetoothAdvertisements/Application/src/main/AndroidManifest.xml:36:27-74
+service#com.example.android.bluetoothadvertisements.AdvertiserService
+ADDED from /home/arizbuno/Documents/Kerjaan/android-BluetoothAdvertisements/Application/src/main/AndroidManifest.xml:42:9-46:19
+	android:enabled
+		ADDED from /home/arizbuno/Documents/Kerjaan/android-BluetoothAdvertisements/Application/src/main/AndroidManifest.xml:44:13-35
+	android:exported
+		ADDED from /home/arizbuno/Documents/Kerjaan/android-BluetoothAdvertisements/Application/src/main/AndroidManifest.xml:45:13-37
+	android:name
+		ADDED from /home/arizbuno/Documents/Kerjaan/android-BluetoothAdvertisements/Application/src/main/AndroidManifest.xml:43:13-46
+uses-sdk
+INJECTED from /home/arizbuno/Documents/Kerjaan/android-BluetoothAdvertisements/Application/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /home/arizbuno/Documents/Kerjaan/android-BluetoothAdvertisements/Application/src/main/AndroidManifest.xml
+INJECTED from /home/arizbuno/Documents/Kerjaan/android-BluetoothAdvertisements/Application/src/main/AndroidManifest.xml
+MERGED from [com.android.support:support-v13:27.0.2] /home/arizbuno/.gradle/caches/transforms-1/files-1.1/support-v13-27.0.2.aar/fd4438f9e51c843577316e4c53593a03/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v13:27.0.2] /home/arizbuno/.gradle/caches/transforms-1/files-1.1/support-v13-27.0.2.aar/fd4438f9e51c843577316e4c53593a03/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:27.0.2] /home/arizbuno/.gradle/caches/transforms-1/files-1.1/support-v4-27.0.2.aar/8b7dd3677813ae7c9e6c9ac02a9058f5/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:27.0.2] /home/arizbuno/.gradle/caches/transforms-1/files-1.1/support-v4-27.0.2.aar/8b7dd3677813ae7c9e6c9ac02a9058f5/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cardview-v7:27.0.2] /home/arizbuno/.gradle/caches/transforms-1/files-1.1/cardview-v7-27.0.2.aar/166e14cb98c69b01e359bc54bd198c39/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cardview-v7:27.0.2] /home/arizbuno/.gradle/caches/transforms-1/files-1.1/cardview-v7-27.0.2.aar/166e14cb98c69b01e359bc54bd198c39/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:27.0.2] /home/arizbuno/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/cd4ef88d1ba658867ad58b50a57dda6a/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:27.0.2] /home/arizbuno/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/cd4ef88d1ba658867ad58b50a57dda6a/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:27.0.2] /home/arizbuno/.gradle/caches/transforms-1/files-1.1/support-media-compat-27.0.2.aar/7d8f719d22f7dac1d02931c055c4331d/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:27.0.2] /home/arizbuno/.gradle/caches/transforms-1/files-1.1/support-media-compat-27.0.2.aar/7d8f719d22f7dac1d02931c055c4331d/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:27.0.2] /home/arizbuno/.gradle/caches/transforms-1/files-1.1/support-fragment-27.0.2.aar/680b642f96a122f6455af72b827549b2/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:27.0.2] /home/arizbuno/.gradle/caches/transforms-1/files-1.1/support-fragment-27.0.2.aar/680b642f96a122f6455af72b827549b2/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.0.2] /home/arizbuno/.gradle/caches/transforms-1/files-1.1/support-core-utils-27.0.2.aar/c6e5bf7cd0eccca2b43b25f3ace24d78/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.0.2] /home/arizbuno/.gradle/caches/transforms-1/files-1.1/support-core-utils-27.0.2.aar/c6e5bf7cd0eccca2b43b25f3ace24d78/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:27.0.2] /home/arizbuno/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-27.0.2.aar/37bf7d8e292da72ac33bf38baa5fde3a/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:27.0.2] /home/arizbuno/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-27.0.2.aar/37bf7d8e292da72ac33bf38baa5fde3a/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.0.2] /home/arizbuno/.gradle/caches/transforms-1/files-1.1/support-core-ui-27.0.2.aar/4c49714bdb05afe6eeec2ad16b105939/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.0.2] /home/arizbuno/.gradle/caches/transforms-1/files-1.1/support-core-ui-27.0.2.aar/4c49714bdb05afe6eeec2ad16b105939/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.0.2] /home/arizbuno/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-27.0.2.aar/cae57f78f48f8a5a2883a501f5744b3b/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.0.2] /home/arizbuno/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-27.0.2.aar/cae57f78f48f8a5a2883a501f5744b3b/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.0.2] /home/arizbuno/.gradle/caches/transforms-1/files-1.1/support-compat-27.0.2.aar/3e4c9469ccfc600661923d310a2a47d2/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.0.2] /home/arizbuno/.gradle/caches/transforms-1/files-1.1/support-compat-27.0.2.aar/3e4c9469ccfc600661923d310a2a47d2/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.0.3] /home/arizbuno/.gradle/caches/transforms-1/files-1.1/runtime-1.0.3.aar/dec028e8c24c713249227c09427ad079/AndroidManifest.xml:20:5-22:41
+MERGED from [android.arch.lifecycle:runtime:1.0.3] /home/arizbuno/.gradle/caches/transforms-1/files-1.1/runtime-1.0.3.aar/dec028e8c24c713249227c09427ad079/AndroidManifest.xml:20:5-22:41
+INJECTED from /home/arizbuno/Documents/Kerjaan/android-BluetoothAdvertisements/Application/src/main/AndroidManifest.xml
+INJECTED from /home/arizbuno/Documents/Kerjaan/android-BluetoothAdvertisements/Application/src/main/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /home/arizbuno/Documents/Kerjaan/android-BluetoothAdvertisements/Application/src/main/AndroidManifest.xml
+		ADDED from /home/arizbuno/Documents/Kerjaan/android-BluetoothAdvertisements/Application/src/main/AndroidManifest.xml
+		INJECTED from /home/arizbuno/Documents/Kerjaan/android-BluetoothAdvertisements/Application/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /home/arizbuno/Documents/Kerjaan/android-BluetoothAdvertisements/Application/src/main/AndroidManifest.xml
+		ADDED from /home/arizbuno/Documents/Kerjaan/android-BluetoothAdvertisements/Application/src/main/AndroidManifest.xml
+		INJECTED from /home/arizbuno/Documents/Kerjaan/android-BluetoothAdvertisements/Application/src/main/AndroidManifest.xml

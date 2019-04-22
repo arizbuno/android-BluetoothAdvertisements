@@ -16,10 +16,12 @@
 
 package com.example.android.bluetoothadvertisements;
 
+import android.Manifest;
 import android.bluetooth.BluetoothAdapter;
 import android.bluetooth.BluetoothManager;
 import android.content.Context;
 import android.content.Intent;
+import android.os.Build;
 import android.os.Bundle;
 import android.support.v4.app.FragmentActivity;
 import android.support.v4.app.FragmentTransaction;
@@ -52,6 +54,11 @@ public class MainActivity extends FragmentActivity {
 
                     // Are Bluetooth Advertisements supported on this device?
                     if (mBluetoothAdapter.isMultipleAdvertisementSupported()) {
+
+                        // Ask for location permission
+                        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.M) {
+                            requestPermissions(new String[]{Manifest.permission.ACCESS_FINE_LOCATION}, Constants.PERMISSION_REQUEST_COARSE_LOCATION);
+                        }
 
                         // Everything is supported and enabled, load the fragments.
                         setupFragments();
